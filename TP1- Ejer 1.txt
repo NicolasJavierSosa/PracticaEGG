@@ -1,0 +1,27 @@
+package introjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Nico el crack :v
+ */
+public class NewMain1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int num1,num2,Suma;
+        System.out.print("ingrese tu primer numero ;v ");
+        num1 = leer.nextInt();
+        System.out.println("ingrese su segundo numero :v ");
+        num2 = leer.nextInt();
+        Suma= num1 + num2;
+        System.out.println("La suma de los dos numeros es de :vvv " +Suma+ " :v");
+        
+        
+    }
+    
+}

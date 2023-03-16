@@ -1,0 +1,31 @@
+package introjava;
+
+import java.util.Scanner;
+
+
+/**
+ *
+ * @author Nico el crack :v
+ */
+public class NewMain1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        int num1,doble,triple;
+        double raiz;
+        System.out.println("Ingresa tu numero entero favorito !!!!! :D");
+        num1 = leer.nextInt();
+        doble = num1*num1;
+        triple = num1*num1*num1;
+        raiz= Math.sqrt(num1);
+        System.out.println("¡Has escogido el numero "+num1+" !");
+        System.out.println("-------------------------------------------");
+        System.out.println("El doble de "+num1+" es, "+doble);
+        System.out.println("El triple de "+num1+" es, "+triple);
+        System.out.println("La raiz cuadrada de " +num1+ " es, "+raiz);
+        System.out.println("-------------------------------------------");
+    }
+}

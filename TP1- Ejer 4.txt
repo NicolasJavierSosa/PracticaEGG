@@ -1,0 +1,22 @@
+package introjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Nico el crack :v
+ */
+public class NewMain1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        double GC,GF,Conversor;
+        System.out.println("Escribir grados centigrados a convertir en Fahrenheit");
+        GC = leer.nextDouble();
+        Conversor = 32+9*GC/5;
+        System.out.println("El equivalente a Fahrenheit es de "+ Conversor);
+    }
+}

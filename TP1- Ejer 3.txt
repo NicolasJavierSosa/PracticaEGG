@@ -1,0 +1,25 @@
+package introjava;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author Nico el crack :v
+ */
+public class NewMain1 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner leer = new Scanner(System.in);
+        String Frase;
+        System.out.println("Ingrese una frase fachera");
+        Frase = leer.nextLine();
+        String FraseMin= Frase.toLowerCase(); 
+        String FraseMay = Frase.toUpperCase();
+        System.out.println("La frase en minuscula queda: "+ FraseMin);
+        System.out.println("La frase en mayuscula queda: "+ FraseMay);
+            
+    }
+}
